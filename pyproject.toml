@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "create-tagged-releases"
+version = "1.0.0"
+description = ""
+authors = ["Nicholas-Adamou <nicholas.adamou@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygithub = "^1.58.0"
+pyyaml = "^6.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

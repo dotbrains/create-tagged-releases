@@ -1,0 +1,7 @@
+access_token: ${GITHUB_ACCESS_TOKEN}
+repo:
+  org: organization-name
+  names:
+    - service-name
+release:
+  branch: main
